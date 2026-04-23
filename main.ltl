@@ -1,0 +1,15 @@
+// ltl-kustomize-lite/main.ltl
+//
+// Kustomize patch/overlay demo resolver.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-kustomize-lite v0.1.0")
+    io::println("Kustomize patch/overlay demo resolver.")
+    0
+}
